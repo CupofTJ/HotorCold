@@ -1,0 +1,97 @@
+section {
+	text-align: center;
+	margin-top: 200px;
+}
+
+#logo {
+	font-size: 100px;
+	font-family: arial;
+	padding-bottom: 5px;
+}
+
+#instructions {
+	display: none;
+	position: absolute;
+	width: 525px;
+	height: 50px;
+	top: 240px;
+	left: 50%;
+	margin-left: -250px;
+	font-family: arial;
+	font-size: 20px;
+}
+
+h5 {
+	font-family: arial;
+	color: #909090;
+}
+
+.hidden {
+	visibility: hidden;
+}
+
+#numberbox {
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	margin-bottom: 30px;
+	width: 200px;
+	height: 100px;
+	font-size: 30px;
+	font-family: arial;
+	border: 1px solid #909090;
+}
+
+input[type="text"]:focus {
+	outline: none;
+}
+
+.buttons {
+	padding-bottom: 30px;
+}
+
+#textinput {
+	font-family: arial;
+	font-size: 11px;
+	font-weight: bold;
+	color: #909090;
+	padding-bottom: 20px;
+}
+
+#submit {
+	display: absolute;
+	background-color: #FF66FF;
+	border: 1px solid #000;
+	font-family: arial;
+	font-weight: bold;
+	font-size: 13px;
+	color: #FFF;
+	height: 35px;
+	width: 100px;
+}
+
+#submit:hover {
+	border: 1px solid #000;
+}
+
+#newgame {
+	display: absolute;
+	border: 1px solid #000;
+	background-color: #33FF66;
+	font-family: arial;
+	font-weight: bold;
+	font-size: 13px;
+	color: #FFF;
+	height: 35px;
+	width: 100px;
+}
+
+#newgame:hover {
+	border: 1px solid #000;
+}
+
+h1 {
+	font-family: arial;
+	font-weight: bold;
+	font-size: 30px;
+}
